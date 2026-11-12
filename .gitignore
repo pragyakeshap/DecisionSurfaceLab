@@ -25,3 +25,6 @@ logs/
 .ruff_cache/
 .coverage
 htmlcov/
+
+# Local generated data
+.adk/
