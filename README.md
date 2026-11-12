@@ -1,11 +1,11 @@
 # DecisionSurfaceLab
 
-A conference demo showing the same delivery-investigation task implemented in two ways:
+A small research project showing the same delivery-investigation task implemented in two ways:
 
 1. **Tool Sprawl** — the main Gemini agent sees many low-level tools.
 2. **Bounded Architecture** — the main Gemini agent sees one business capability.
 
-The demo makes these differences visible in the terminal:
+The project makes these differences visible in the terminal:
 
 - Gemini/model call count
 - model latency
@@ -46,9 +46,9 @@ gcloud auth application-default login
 adk web
 ```
 
-The terminal where `adk web` runs is part of the demo. It prints telemetry.
+The terminal where `adk web` runs prints telemetry for comparison and debugging.
 
-## Optional failure demo
+## Optional failure scenario
 
 Set:
 
