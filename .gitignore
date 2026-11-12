@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+*.pem
+
+# Local/editor
+.DS_Store
+.idea/
+.vscode/
+
+# Project runtime artifacts
+logs/
+*.log
+*.jsonl
+
+# Coverage / build outputs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
